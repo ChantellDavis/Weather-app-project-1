@@ -1,0 +1,83 @@
+body {
+    background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%); ;
+}
+
+ .mainContainer {
+  background-color: white;
+  max-width: 425px;
+  border: none;
+  margin: 0 auto;
+  margin-top: 95px;
+  padding: 45px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+}
+
+.searchFormInput {
+    margin: 0px 10px;
+    width: 300px;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    background: radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%);
+
+}
+
+.searchFormButton {
+    padding: 20px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    background-color: rgb(249, 127, 78);
+}
+
+.mainCity, .currentDate {
+    text-align: center;
+}
+
+.mainCity {
+    font-size: 55px;
+    margin-bottom: 0px;
+}
+
+.currentDate {
+    font-size: 22px;
+    margin-top: 0px;
+}
+
+
+
+.weatherIcon {
+    position: relative;
+    top: 65px;
+    left: 70px;
+    font-size: 60px;
+}
+
+.currentTemperature{
+    font-size: 50px;
+    position: relative;
+    left: 170px;
+}
+
+.weatherDegree {
+    font-size: 20px;
+    position: relative;
+    left: 220px;
+    top: -50px;
+}
+
+.weatherConditionData {
+   position: relative;
+    top: -85px;
+    left: 285px; 
+    font-size: 19px;
+}
+
+footer {
+font-size: 20px;
+text-align: center;
+margin-top: 25px;
+
+}
