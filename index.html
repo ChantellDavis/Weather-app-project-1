@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="/src/style.css" />
     <title>Weather Me</title>
   </head>
   <body>
     <div class="mainContainer" id="main-Container">
       <header>
-        <form class="searchForm" id="search-form">
+        <form class="searchForm" id="search-Form">
           <input
             class="searchFormInput"
             id="search-Form-Input"
@@ -18,10 +19,10 @@
             autofocus="on"
           />
           <input
-            type="submit"
-            value="search"
             class="searchFormButton"
             id="search-Form-Button"
+            type="submit"
+            value="search"
           />
         </form>
       </header>
@@ -31,7 +32,7 @@
         <div class="temperatureData" id="temperature-Data">
           <div class="weatherIcon" id="weather-Icon">☀️</div>
           <div>
-            <strong class="currentTemperature" id="currentTemperature">
+            <strong class="currentTemperature" id="current-Temperature">
               30
             </strong>
           </div>
